@@ -1,0 +1,150 @@
+
+
+.lado{
+   float:left;
+	 border:1px;
+}
+
+ .lado1{width:200px; height:30px; float:left; border:1px;}
+
+.sair{color:#fff;background-color:#343a40;border-color:#343a40}
+.sair:hover{color:#fff;background-color:#23272b;border-color:#1d2124}
+.sair.focus,.sair:focus{box-shadow:0 0 0 .2rem rgba(52,58,64,.5)}
+.sair.disabled,.sair:disabled{color:#fff;background-color:#343a40;border-color:#343a40}
+.sair:not(:disabled):not(.disabled).active,.sair:not(:disabled):not(.disabled):active,.show>.sair.dropdown-toggle{color:#fff;background-color:#1d2124;border-color:#171a1d}.sair:not(:disabled):not(.disabled).active:focus,.sair:not(:disabled):not(.disabled):active:focus,.show>.sair.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(52,58,64,.5)}.btn-outline-primary{color:#007bff;
+	background-color:transparent;background-image:none;border-color:#007bff}
+	.btn-outline-primary:hover{color:#fff;background-color:#007bff;border-color:#007bff}
+	.btn-outline-primary.focus,.btn-outline-primary:focus{box-shadow:0 0 0 .2rem rgba(0,123,255,.5)}.btn-outline-primary.disabled,.btn-outline-primary:disabled{color:#007bff;background-color:transparent}
+
+
+	.card-container.card {
+	    max-width: 450px;
+
+				padding: 50px 70px 70px 71px;
+	}
+
+	/*
+	 * Card component
+
+	  padding: 40px 40px;
+	 */
+	.card {
+	    background-color: #F7F7F7;
+	    /* just in case there no content*/
+			padding: 50px 70px 70px 71px;
+	    /*  padding: 20px 25px 30px;*/
+	    margin: 0 auto 25px;
+	    margin-top: 50px;
+	    /* shadows and rounded borders */
+	    -moz-border-radius: 2px;
+	    -webkit-border-radius: 2px;
+	    border-radius: 2px;
+	    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	}
+
+	.main-div {
+	  background: #ffffff none repeat scroll 0 0;
+	  border-radius: 2px;
+	  margin: 10px auto 30px;
+	  max-width: 38%;
+	  padding: 50px 70px 70px 71px;
+	}
+
+.container1{
+	width: 500px;
+	height: 450px;
+	text-align: center;
+	margin: 0 auto;
+
+	margin-top: 160px;
+}
+
+.container1 img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9;
+}
+
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+.btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+}
+
+
+
+
+body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg"); background-repeat:repeat-y; background-position:center; background-size:auto; padding:10px;}
+
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
